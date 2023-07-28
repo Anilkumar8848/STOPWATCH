@@ -7,6 +7,10 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background: #8badc7;
 }
 
@@ -14,12 +18,7 @@ body {
     background-color: #fde5e6;
     width: 40%;
     min-width: 500px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     padding: 20px 0;
-    padding-bottom: 50px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
 }
@@ -31,7 +30,7 @@ body {
     left: 4%;
     font-family: 'Roboto mono', monospace;
     color: #8c52ff;
-    font-size: 30px;
+    font-size: 75px;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -50,7 +49,7 @@ body {
 .buttons button {
     width: 120px;
     height: 45px;
-    background-color: #8c52ff;
+    background-color: #4CAF50;
     color: #fff;
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -61,11 +60,13 @@ body {
 }
 
 .buttons button:nth-last-child(2) {
-    background-color: #e35209;
+   background-color: #f44336;
+
 }
 
 .buttons button:nth-last-child(1) {
-    background-color: #f7df1e;
+    background-color: #008CBA;
+
 }
 
 .buttons button:hover {
